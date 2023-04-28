@@ -152,7 +152,7 @@ Oprócz własności opisanych powyżej, operacje arytmetyczne na wielomianach po
 
 Niektóre własności są objęte testami. testy są dwojakiego rodzaju:
 
-*   przykłady wartości wyrażeń, np.
+    przykłady wartości wyrażeń, np.
 
     -- >>> degree (zeroP :: DensePoly Int)
     -- -1
@@ -160,7 +160,7 @@ Niektóre własności są objęte testami. testy są dwojakiego rodzaju:
 
 tego typu testy można sprawdzić przy pomocy narzędzia doctest albo obliczając wartości wyrażeń w GHCi (bądź VS Code)
 
-*   własności QuickCheck, np.
+    własności QuickCheck, np.
 
     type DPI = DensePoly Integer
     
